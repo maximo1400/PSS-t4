@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/maxim/Documents/GitHub/PSS-t4/T4/cliente.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+jsocket.h
+C:/Users/maxim/Documents/GitHub/PSS-t4/T4/jsocket.h
+util.h
+C:/Users/maxim/Documents/GitHub/PSS-t4/T4/util.h
+integral.h
+C:/Users/maxim/Documents/GitHub/PSS-t4/T4/integral.h
+
+C:/Users/maxim/Documents/GitHub/PSS-t4/T4/integral.h
+
+C:/Users/maxim/Documents/GitHub/PSS-t4/T4/jsocket.h
+stdio.h
+-
+
+C:/Users/maxim/Documents/GitHub/PSS-t4/T4/util.h
+

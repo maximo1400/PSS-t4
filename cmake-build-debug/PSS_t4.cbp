@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PSS_t4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PSS_t4">
+				<Option output="C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/PSS_t4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/maxim/Documents/GitHub/PSS-t4/T4"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 PSS_t4"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PSS_t4/fast">
+				<Option output="C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/PSS_t4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/maxim/Documents/GitHub/PSS-t4/T4"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 PSS_t4/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/maxim/Documents/GitHub/PSS-t4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/.gitignore">
+			<Option target="PSS_t4"/>
+		</Unit>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/LICENSE">
+			<Option target="PSS_t4"/>
+		</Unit>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/T4/Makefile">
+			<Option target="PSS_t4"/>
+		</Unit>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/T4/cliente.c">
+			<Option target="PSS_t4"/>
+		</Unit>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/T4/fun.c">
+			<Option target="PSS_t4"/>
+		</Unit>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/T4/integral.h">
+			<Option target="PSS_t4"/>
+		</Unit>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/T4/jsocket.h">
+			<Option target="PSS_t4"/>
+		</Unit>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/T4/libjsocket.c">
+			<Option target="PSS_t4"/>
+		</Unit>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/T4/parte-a.c">
+			<Option target="PSS_t4"/>
+		</Unit>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/T4/parte-b.c">
+			<Option target="PSS_t4"/>
+		</Unit>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/T4/serv.c">
+			<Option target="PSS_t4"/>
+		</Unit>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/T4/test-parte-a.c">
+			<Option target="PSS_t4"/>
+		</Unit>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/T4/test-parte-b.c">
+			<Option target="PSS_t4"/>
+		</Unit>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/T4/util.c">
+			<Option target="PSS_t4"/>
+		</Unit>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/T4/util.h">
+			<Option target="PSS_t4"/>
+		</Unit>
+		<Unit filename="C:/Users/maxim/Documents/GitHub/PSS-t4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
