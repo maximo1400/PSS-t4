@@ -25,7 +25,7 @@ int leer(int fd, char *buf, int n) {
       return 1; /* fracaso: error o fin del archivo/pipe/socket */
     n-= rc; /* descontamos los bytes leídos */
     buf+= rc; /* avanzamos el buffer para no reescribir lo leido previamente */
-  } while (n>0); /* mientras no leamos todo lo que esperamos */
+  } while (n>0);
   return 0; /* exito */
 }
 

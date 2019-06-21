@@ -13,42 +13,36 @@
 #define SIZE 1000
 pthread_mutex_t m= PTHREAD_MUTEX_INITIALIZER;
 typedef void*(*Thread_fun) (void*);
-int fin=0, count=0, otherCount=0;
-double ret=0;
+
 void* serv(void* ptr){
     int s= (intptr_t)ptr;
-    double step =(double)1.0/SIZE;
+    double ret=0;
+    double step = 0.001;
+    int finished=0;
     pthread_mutex_lock(&m);
-
-    while(!fin){
+    for (int i = 0; i < SIZE; i++) {
         double aux=0;
-        double xi=count*step;
-        double xf=(count+1)*step;
-        if (xf==1)
-            fin=1;
+        double xi=i*step;
+        double xf=(i+1)*step;
         printf("env [%f, %f]\n",xi,xf);
-        count++;
         pthread_mutex_unlock(&m);
         write(s,(char*)&xi, sizeof(xi));
         write(s,(char*)&xf, sizeof(xf));
         leer(s,(char*)&aux, sizeof(aux));
-        pthread_mutex_lock(&m);
-        otherCount++;
+        finished++;
         ret+=(double)aux;
-        if(otherCount==SIZE){
-            fin=1;
-            printf("integral= %f\n",ret);
-        }
+        pthread_mutex_lock(&m);
 
     }
     pthread_mutex_unlock(&m);
     close(s);
-
+    if (finished==1000)
+        printf("integral= %f\n",ret);
     return NULL;
 }
 
 int main(int argc, char **argv) {
-    long s, s2;
+    intptr_t s, s2;
     pthread_t pid;
 
     signal(SIGPIPE, SIG_IGN);
@@ -56,6 +50,7 @@ int main(int argc, char **argv) {
 
     if (j_bind(s, 3000) < 0)
         error("bind fallo.  Port 3000 ocupado?");
+
 
     for(;;) {
         pthread_attr_t attr;
@@ -70,4 +65,5 @@ int main(int argc, char **argv) {
         }
         pthread_attr_destroy(&attr);
     }
+
 }
